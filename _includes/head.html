@@ -1,0 +1,16 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TODO: Liquid seo tag  -->
+  <link rel="stylesheet" href="{{ "/assets/bootstrap.min.css" | relative_url }}"
+  <link rel="stylesheet" href="{{ "/assets/katex.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <script src="{{ "/assets/jquery-3.4.1.min.js" | relative_url }}" defer></script>
+  <script src="{{ "/assets/bootstrap.min.js" | relative_url }}" defer></script>
+  {% if page.title %}
+  <title>{{ page.title }} | {{ site.title }}</title>
+  {% else %}
+  <title>{{ site.title }}</title>
+  {% endif %}
+</head>
