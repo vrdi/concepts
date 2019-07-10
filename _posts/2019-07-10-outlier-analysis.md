@@ -24,6 +24,10 @@ The answer they actually give you? _7 feet._ Of course, you laugh, certain that 
  
 But why are you so sure? For one thing, you probably don’t know anyone who is 7 feet tall. You might have a few friends who are over 6 feet tall, but most of the people you’ve met are somewhere between 5 and 6 feet tall. If you were to plot how many people you know at each height, the picture (called a histogram) would look something like this:
 
+<object type="image/svg+xml" data="{{ "/assets/outlier-analysis/male_female_heights.svg" | relative_url }}">
+    <img src="{{ "/assets/outlier-analysis/male_female_heights.svg" | relative_url }}">
+</object>
+
 
 When your friend tells you they’re 7 feet tall, alarm bells start ringing. _I’ve never met anyone taller than 6’ 5”, let alone 7 feet tall! My friend is probably lying…_
  
